@@ -38,7 +38,26 @@ As it makes sense to you please write the following in JSON format:
 - Has lived in two places recently: 123 Fake street, and 2 Muchinfo Road
 
 ```json
-<!-- your answer here -->
+{"jasonThings": {
+  "pets": {
+    "name": "Mr.Kitty",
+    "type": "cat"
+  },
+  "roommates": {
+    "name": "Dave",
+    "name": "Miller"
+  },
+  "loves": {
+    "baseballTeam": "Red Sox",
+    "footballTeam": "Patriots",
+    "hockeyTeam": "Bruins"
+  },
+  "recentAddresses": {
+    "address": "123 Fake street",
+    "address": "2 Muchinfo Road"
+  }
+}}
+
 ```
 
 ...I forgot, my roomate Dave has two goldfish, one named Bob (he's red) and the
@@ -46,7 +65,37 @@ other named Mr.MagicNibbles (yellow) and bites a bit. Please copy the JSON you
 already wrote and include the information about Dave's fish.
 
 ```json
-<!-- your answer here -->
+{"jasonThings": {
+  "pet": {
+    "type": "cat",
+    "name": "Mr. Kitty"
+  },
+  "roommates": {
+    "name": "Dave" {
+      "petOne": {
+        "type": "goldfish",
+        "name": "Bob",
+        "color": "red"
+      },
+      "petTwo": {
+        "type": "goldfish",
+        "name": "Mr. MagicNibbles",
+        "color": "yellow",
+        "attribute": "bites a bit"
+      },
+    },
+    "name": "Miller"
+  },
+  "loves": {
+    "baseballTeam": "Red Sox",
+    "footballTeam": "Patriots",
+    "hockeyTeam": "Bruins"
+  },
+  "recentAddresses": {
+    "address": "123 Fake street",
+    "address": "2 Muchinfo Road"
+  }
+}}
 ```
 
 ## JSON Methods
@@ -54,7 +103,7 @@ already wrote and include the information about Dave's fish.
 Using the JSON your wrote above, can you write a method on the JSON?
 
 ```json
-<!-- your answer here -->
+I'm sorry Jason, I'm afraid I can't do that.  json can't take methods because it's not an object.  
 ```
 
 ## JSON Comments
@@ -62,5 +111,5 @@ Using the JSON your wrote above, can you write a method on the JSON?
 Using the JSON your wrote above, can you write a comment in the JSON?
 
 ```json
-<!-- your answer here -->
+No because json is a string, not an object and therefor can't take comments.
 ```
